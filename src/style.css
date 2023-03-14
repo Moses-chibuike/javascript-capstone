@@ -21,3 +21,9 @@ header {
   text-decoration: none;
   color: #333;
 }
+
+footer {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}

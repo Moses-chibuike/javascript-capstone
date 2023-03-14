@@ -27,3 +27,7 @@ footer {
   padding: 10px;
   border: 1px solid black;
 }
+
+.likeBtn {
+  cursor: pointer;
+}

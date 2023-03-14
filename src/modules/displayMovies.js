@@ -1,17 +1,18 @@
 import { fetchMovieData, fetchLikes } from '../configurations/utilities.js';
 
 const updateLikes = async () => {
-    try {
-      const data = await fetchLikes();
-      data.forEach((item) => {
-        const likeCount = document.getElementById(`count-${item.item_id}`);
-        likeCount?.innerHTML = `${item.likes}`;
-      });
-    } catch (error) {
-      throw new Error(`Error updating likes: ${error}`);
-    }
-  };
-  
+  try {
+    const data = await fetchLikes();
+    data.forEach((item) => {
+      const likeCount = document.getElementById(`count-${item.item_id}`);
+      if (likeCount !== null && likeCount !== undefined) {
+        likeCount.innerHTML = `${item.likes}`;
+      }
+    });
+  } catch (error) {
+    throw new Error(`Error updating likes: ${error}`);
+  }
+};
 
 const list = document.getElementById('list');
 
@@ -28,7 +29,7 @@ const display = async () => {
                 <p>${title}</p> 
                 <div class="like">
                    
-                    <p id=count-${id}></p>
+                    <p id=count></p>
                 </div>   
             </div>
             <div>
@@ -37,7 +38,7 @@ const display = async () => {
         </li>
         `;
   });
-    updateLikes();
+  updateLikes();
 };
 
 export default display;

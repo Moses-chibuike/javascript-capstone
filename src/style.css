@@ -27,3 +27,48 @@ footer {
   padding: 10px;
   border: 1px solid black;
 }
+
+.poster-imag {
+  width: 100%;
+}
+
+#list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-wrapper {
+  width: 300px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  padding: 10px 0;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #ddd;
+  color: #333;
+  transition: ease-in 100ms;
+}

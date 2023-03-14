@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.topnav {
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 16px;
+  align-items: center;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: #333;
+}

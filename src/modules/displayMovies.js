@@ -19,7 +19,7 @@ const list = document.getElementById('list');
 const display = async () => {
   const data = await fetchMovieData();
   list.innerHTML = '';
-  data.forEach(({ '#TITLE': title, '#IMG-POSTER': poster }) => {
+  data.forEach(({ '#TITLE': title, '#IMG_POSTER': poster, '#IMDB_ID': id }) => {
     list.innerHTML += `
         <li>
             <div class="image-wrapper">
@@ -29,7 +29,7 @@ const display = async () => {
                 <p>${title}</p> 
                 <div class="like">
                    
-                    <p id=count></p>
+                    <p id=count-${id}></p>
                 </div>   
             </div>
             <div>

@@ -1,7 +1,7 @@
-import { HARRYPORTERMOVIESURL, LIKESURL } from "./constVariables";
+import { HARRYPORTERMOVIESURL, LIKESURL } from './constVariables.js';
 
 const fetchMovieData = async () => {
-  const response = await fetch(HARRYPORTERMOVIESURL); 
+  const response = await fetch(HARRYPORTERMOVIESURL);
   const data = await response.json();
   const info = data.description;
   return info;

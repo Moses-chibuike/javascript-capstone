@@ -11,3 +11,5 @@ const likeArts = async (id) => {
     },
   });
 };
+
+export default likeArts;

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap");
+
+body {
+  background-color: white;
+  font-family: "Titillium Web", sans-serif;
+  position: relative;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body h1 {
+  font-weight: 700;
+}
+
+body h2 {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.art {
+  font-weight: 700;
+}
+
+header {
+  width: 100%;
+  height: 7em;
+  display: flex;
+  align-items: center;
+}
+
+header > div {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 13em;
+  position: fixed;
+  background: rgb(0, 0, 0);
+  border-bottom: 1px solid black;
+  top: 0;
+}
+
+.fd-number {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.fd-number span {
+  font-weight: bold;
+  color: rgb(0, 132, 255);
+  padding: 0 0.5em;
+}
+
+.fd-categories {
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
+}

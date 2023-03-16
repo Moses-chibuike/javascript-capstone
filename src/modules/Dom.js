@@ -1,4 +1,5 @@
 import ht2 from '../images/heart2.png';
+import { getLikes } from './api.js';
 
 let stringPaintings = '';
 let idKey;
@@ -10,6 +11,7 @@ const loadData = async () => {
   const response = await fetch(request);
   const data = await response.json();
   const IDs = data.objectIDs;
+  idKey = await getLikes();
   IDs.forEach((element) => {
     const readIds = async (element) => {
       const gallery = document.querySelector('.gallery');

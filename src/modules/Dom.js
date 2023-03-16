@@ -1,5 +1,6 @@
 import ht2 from '../images/heart2.png';
 import { getLikes } from './api.js';
+import getTotalPaintings from './itemsCounter.js';
 
 let stringPaintings = '';
 let idKey;
@@ -39,6 +40,7 @@ const loadData = async () => {
                                   </div>
                                 </div>`;
       gallery.innerHTML = stringPaintings;
+      getTotalPaintings();
     };
     readIds(element);
   });

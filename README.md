@@ -78,7 +78,7 @@
 
 ## 🚀 Live Video <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://moses-chibuike.github.io/javascript-capstone/dist/)
 
 ## 🚀 Project Details
 

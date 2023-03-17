@@ -347,6 +347,7 @@ main .grid-item {
   font-weight: 400;
   padding: 20px;
   background: hsl(240deg 6% 87%);
+  align-items: center;
 }
 
 .grid-container button {

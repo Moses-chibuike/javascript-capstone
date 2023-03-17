@@ -78,7 +78,7 @@
 
 ## 🚀 Live Video <a name="live-demo"></a>
 
-- [Live video Link](https://drive.google.com/file/d/1xkFpNxyqdzTswQOwCLdACv1F4Jeq99YY/view?usp=sharing)
+- [Live video Link]()
 
 ## 🚀 Project Details
 

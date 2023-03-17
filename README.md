@@ -1,11 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  <img src="./murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-  <h3><b>Microverse README Template</b></h3>
-</div
-
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
@@ -78,7 +72,7 @@
 
 ## 🚀 Live Video <a name="live-demo"></a>
 
-- [Live video Link]()
+- [Live video Link](https://drive.google.com/file/d/1xkFpNxyqdzTswQOwCLdACv1F4Jeq99YY/view?usp=sharing)
 
 ## 🚀 Project Details
 

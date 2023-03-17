@@ -75,3 +75,336 @@ header > div {
   width: 3%;
   padding-left: 20px;
 }
+
+/* Comments pop up styles */
+
+.reservationPopup {
+  display: none;
+  overflow-y: auto;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  opacity: 98%;
+  backdrop-filter: blur(80px);
+  transition: height 1s ease;
+  padding: 20px;
+}
+
+.containerCommentsPopUp,
+.reservationPopup {
+  display: none;
+  overflow-y: auto;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 98%;
+  backdrop-filter: blur(80px);
+  transition: height 1s ease;
+  padding: 20px;
+}
+
+.popUpComments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.xclose {
+  position: relative;
+  margin-left: 2%;
+  left: 42%;
+  width: 40px;
+  top: 2rem;
+}
+
+.imageComments {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageComments img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+  margin: 1%;
+}
+
+.titleComments {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+}
+
+.dataPaintingComments {
+  font-size: 25px;
+}
+
+.countComments,
+.countReservations {
+  font-size: 30px;
+  text-align: center;
+}
+
+.listComments,
+.listReservations {
+  border: none;
+  overflow-y: scroll;
+  height: 20vh;
+  background: rgb(213, 213, 213);
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.userComment,
+.userDetails {
+  list-style-type: none;
+  margin: 5px;
+  font-size: 25px;
+}
+
+.detailsComments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.detailsComments ul {
+  padding-inline-start: 0;
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.detailsComments li {
+  display: block;
+  margin: 1%;
+}
+
+.addComment,
+.addReservation {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.formComment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.username,
+.comment {
+  font-size: 20px;
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 80px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.addCommentButton {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.reserveButton {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 45%;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  height: 50px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5em;
+}
+
+main .grid-item {
+  border: none;
+  padding: 2%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.paint-name {
+  height: auto;
+  margin: 0;
+}
+
+.paint-name p {
+  height: auto;
+  margin: 0;
+}
+
+.paintings img {
+  border-radius: 5px;
+}
+
+.xcloseR {
+  position: relative;
+  margin-left: 2%;
+  left: 88%;
+  width: 40px;
+  top: 2rem;
+}
+
+.paintings {
+  box-sizing: border-box;
+  border: solid;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #000;
+  background: rgba(1, 32, 19, 0.658);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.paintingContainer {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.painting {
+  width: auto;
+  height: 70%;
+  object-fit: contain;
+  margin: 1em;
+}
+
+.like img {
+  width: auto;
+  height: 2.4vh;
+}
+
+.heart:hover {
+  cursor: pointer;
+}
+
+.likes {
+  padding-bottom: 20px;
+}
+
+.likes-count span {
+  color: rgb(53, 49, 49);
+}
+
+.bComments {
+  background: none;
+}
+
+.bReservations {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  background: none;
+}
+
+.footer {
+  border: solid;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px;
+  background: hsl(240deg 6% 87%);
+}
+
+.grid-container button {
+  width: 100%;
+  border: 1px black solid;
+  line-height: 1em;
+  outline: none;
+  font-size: large;
+  color: gray;
+  padding: 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grid-container button:hover {
+  outline: none;
+  background: rgb(205, 158, 41);
+  color: white;
+}
+
+/* Reservations */
+
+.divReservations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addReservations {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: auto;
+  align-items: center;
+}
+
+.formReserve {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+
+#username,
+#startDate,
+#endDate {
+  font-size: 20px;
+  font-style: italic;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 80px;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.Reservations {
+  display: flex;
+  align-items: flex-start;
+  height: 50px;
+}

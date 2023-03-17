@@ -74,11 +74,11 @@
 
 ## 🚀 Presentaton Link <a name="live-demo"></a>
 
-- [You can view the presentation of our project here]()
+- - [Live Demo Link](https://moses-chibuike.github.io/javascript-capstone/dist/)
 
 ## 🚀 Live Video <a name="live-demo"></a>
 
-- [Live Demo Link](https://moses-chibuike.github.io/javascript-capstone/dist/)
+- [Live video Link]()
 
 ## 🚀 Project Details
 
@@ -144,7 +144,7 @@ You can deploy this project using:
 👤 **Moses-Chibuike**
 
 - GitHub: [@githubhandle](https://github.com/Moses-chibuike)
-- LinkedIn: [LinkedIn]()
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ezechukwu-chibuike/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

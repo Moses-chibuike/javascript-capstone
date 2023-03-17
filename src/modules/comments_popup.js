@@ -1,5 +1,4 @@
 import Xclose from '../images/close.svg';
-import countData from './countComments.js';
 
 const popUpCommentsContainer = document.querySelector('.containerCommentsPopUp');
 
